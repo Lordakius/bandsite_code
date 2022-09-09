@@ -1,7 +1,8 @@
 ---
-title: "Welcome"
+title: "News"
 weight: 1
 ---
 
-Some welcoming text-placeholder :) 
+* EP-Release! Für mehr Infos schaut [hier](ep) vorbei
+
 
