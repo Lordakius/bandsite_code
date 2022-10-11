@@ -1,0 +1,13 @@
+    <article>
+      <header>
+        {{ if .Title }}
+        <h2 class="list-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ end }}
+      </header>
+      <div>
+        {{ .Summary | plainify | safeHTML }}
+      </div>
+      {{ if .Truncated }}
+      <p><a class="read-more" href="{{ .Permalink }}">Read more &rarr;</a></p>
+      {{ end }}
+    </article>

@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+{{ define "template" }}
+  {{ partial "show-template" (dict "Which" .Kind "Template" "layouts/_default/ep/single.html") }}
+{{ end }}
+
+<div id="content">
+{{ range $index, $page := (.Paginate (where (where .Site.RegularPages "Type" "in" "ep") ".Params.hidden" "!=" "true" )).Pages }}
+{{ if ne $index 0 }}
+{{ end }}
+{{ .Render "li" }}
+{{ end }}
+{{ partial "pagination.html" .Paginator }}
+</div>
+
+{{ partial "footer.html" . }}
