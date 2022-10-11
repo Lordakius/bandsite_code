@@ -1,6 +1,7 @@
 ---
 title: "Pudding"
 draft: "false"
+categories: ["ep"]
 ---
 
 

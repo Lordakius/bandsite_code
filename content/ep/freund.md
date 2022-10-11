@@ -1,6 +1,7 @@
 ---
 title: "Freund"
 draft: "false"
+categories: ["ep"]
 ---
 
 

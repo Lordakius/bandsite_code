@@ -1,6 +1,7 @@
 ---
 title: "Sinn des Lebens"
 draft: "false"
+categories: ["ep"]
 ---
 
 

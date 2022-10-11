@@ -1,7 +1,7 @@
 ---
 title: "Carpe Diem"
 draft: false
-categories: ["songs"]
+categories: ["ep"]
 ---
 
 Sonnenschein, raus an' Strand  
